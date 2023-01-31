@@ -26,6 +26,9 @@ I would like to create a website that is simple to navigate so that users will n
   - Car Models
   - Book a test drive
 
+hello
+EDIT
+EDIT
 - I would use attractive pictures of the Lugatti car which will make the website less boring,text that is easy to read so that we wil not lose the customer's attention.
 - I would make it easy for customers to book a test drive, if a customer were to feel the power of the Lugatti they would be more inclined to purchase the car.
 
