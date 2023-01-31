@@ -1,9 +1,204 @@
-<h1>
-  hi
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bugatti </title>
+    <link rel="stylesheet" href = "csss.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<!--- Nav bar -->
+<body>
+    <header>
+        <div class = "nav container">
+            <i class='bx bx-menu' id = "menu-icon"></i>
+            <a href ="#" class = "logo"> Bugatti<span class="symbol">&reg;</span></a>
+            <ul class = "navbar">
+                <li><a href="#home" class = "active"> Home </a></li>
+                <li><a href="#cars"> Models </a></li>
+                <li><a href="#about"> About </a></li>
+                <li><a href="#contact"> Contact Us </a></li>
+            </ul>
+            <div id="login-btn">
+                <button class="btn">LOGIN</button>
+                <i class="far fa-user"></i>               
+            </div>
+        </div>
+    </header>
+<!--- Login form -->
+    <div class="login-form-container">
 
-<h1> in this world you are the one</h1>
+        <span class="fas fa-times" id="close-login-form"  > </span>
+    
+        <form action="#home" method="GET">
+            <h3>user login</h3>
+            <input type="email" placeholder="Enter Email" class="box" required>
+            <input type="password" placeholder="Enter Password" class="box" required>
+            <p> Forget your password? <a href="#">CLICK HERE</a> </p>
+            <input type="submit" value="Login" class="btn">
+            <p>Or Login with</p>
+            <div class="buttons">
+                <a href="https://accounts.google.com/signup/v2/webcreateaccount?biz=false&cc=SG&continue=https%3A%2F%2Fwww.google.com%2F&dsh=S-670744997%3A1670037411418480&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&authuser=0" class="btn"> Google </a>
+                <a href="https://www.facebook.com/?stype=lo&jlou=Afeht7dslSmQ5rf1IMoopt85_7ogeFEcANOeMDUxGrxjva-Sfo796olvnKMOXH5xU4QzIDl4AL2T30mz1MSnfXWs&smuh=48738&lh=Ac8vNKEtbAlJtBV__1A" class="btn"> Facebook </a>
+            </div>
+            <p> Don't have an account <a href="#">Create One</a> </p>            
+        </form>    
+    </div>
+<!--- Background image -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Curious how fast our car is? <br> Why not try it out? </h1>
+            <p> Test out different models <br> by booking an appointment Today</p>
 
+            <div id="book-btn">
+                <button class="btn">Book Now!</button>
+                <i class="far fa-user"></i>                
+            </div>
+        </div>
+        <div class="book-form-container">
 
+            <span class="fas fa-times" id="close-book-form"  > </span>
+        
+            <form action="#home" method="GET">
+                <h3>Booking</h3>
+                <input type="text" placeholder="Enter Name" class="box" required>
+                <input type="email" placeholder="Enter Email" class="box" required>
+                <input type="date" class="box" required>
+                <textarea placeholder="Enter Message" class="box" cols="30" rows="3" required></textarea>
+                <input type="submit" value="Book test drive" class="btn">      
+            </form>
+        
+        </div>
 
-<h2> what the hell is happening </h2>
+    </section>
+
+<!--- Cars container-->
+    <section class ="cars" id = "cars">
+        <div class = "heading">
+            <h1> Models</h1>
+        </div>
+        <div class = "cars-container container">
+            <div class = "box">
+                <img src = "images/400th-Bugatti-Chiron-hero-image.jpg" alt = "">
+                <h2> Bugatti car</h2>
+            </div>
+            <div class = "box">
+                <img src = "images/PW5L7T5OPHWYCWWZNYFRAESHGE-1024x770.jpg" alt = "">
+                <h2> Bugatti car</h2>
+            </div>
+            <div class = "box">
+                <img src = "images/jannis-lucas-FVwCMq_FPDA-unsplash.jpg" alt = "">
+                <h2> Bugatti car</h2>
+            </div>
+            <div class = "box">
+                <img src = "images/bugatti-cento-back.jpg" alt = "">
+                <h2> Bugatti car</h2>
+            </div>
+            <div class = "box">
+                <img src = "images/photo_2022-12-03_23-34-38.jpg" alt = "">
+                <h2> Bugatti car</h2>
+            </div>
+            <div class = "box">
+                <img src = "images/bugatti_divo_04_final_2_Cropped.jpg" alt = "">
+                <h2> Bugatti car</h2>
+            </div>
+        </div>
+    </section>
+<!--- about us -->
+<section id = "about">
+	<div class="service">
+		<div class="title">
+			<h2> About Us </h2>
+		</div>
+		<div class="boxs">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5> Our exclusivity</h5>
+				<div class="pra">
+					<p> Unlike mainstream vehicles that you purchase at any dealership, Bugattis are produced in limited numbers. Hence, it is exclusive</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://showroomex.com/bugatti/why-bugatti-is-so-expensive/">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5> Extraordinary </h5>
+				<div class="pra">
+					<p> the company takes great pride in manufacturing cars that aren’t just beautiful in looks but some of the world’s fastest.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://showroomex.com/bugatti/why-bugatti-is-so-expensive/">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5> Unmatched Power </h5>
+				<div class="pra">
+					<p> The amount of production cars that have as much horse power as the Bugatti Chiron can only be counter on just one hand</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://showroomex.com/bugatti/why-bugatti-is-so-expensive/">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--- Contact us -->
+<section class="contact" id="contact">
+
+    <h1 class="headings"> Contact Us </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.806452170528!2d103.80679021533126!3d1.2904233621215464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1b80e0a30b3b%3A0xc7d3ce086042a448!2sBugatti%20Singapore!5e0!3m2!1sen!2ssg!4v1669997092842!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="https://www.bugatti.com/contact/success/#c1220" method="GET">
+            <h3>Message Us</h3>
+            <input type="text" placeholder="Enter Name" class="box" required>
+            <input type="email" placeholder="Enter Email" class="box" required>
+            <input type="tel" placeholder="Enter Subject" class="box" required>
+            <textarea placeholder="Enter Message" class="box" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Send Message" class="btn" >
+        </form>
+
+    </div>
+
+</section>
+<!---footer-->
+    <footer class = "footer">
+        <div class = "inner-footer">
+            <div class = "social-links">
+                <ul>
+                    <li class = "social-items"><a href="https://www.facebook.com/bugatti/"><i class = "fab fa-facebook"></i></a></li>
+                    <li class = "social-items"><a href="https://www.instagram.com/bugatti/"><i class = "fab fa-instagram"></i></a></li>
+                    <li class = "social-items"><a href="https://twitter.com/Bugatti"><i class = "fab fa-twitter"></i></a></li>
+                    <li class = "social-items"><a href="https://www.youtube.com/BugattiSocial"><i class = "fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class = "quick-links">
+                <ul>
+                    <li class = "quick-items"><a href= "#home">Home</a></li>
+                    <li class = "quick-items"><a href= "#cars">Models</a></li>
+                    <li class = "quick-items"><a href= "#about">About</a></li>
+                    <li class = "quick-items"><a href= "#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class = "outer-footer">
+            Copyright &copy; 2022 BUGATTI AUTOMOBILES S.A.S.
+        </div>
+
+    </footer>
+
+<script src="java.js"></script>
+
+</body>
+
+</html>
