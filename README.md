@@ -2,8 +2,6 @@
 
 # BUGATTI
 
-Luggati is a Automobile car company that specialises in combining an artistic approach with superior technical innovations in the world of super sports cars.
-
 **Automobiles Ettore Bugatti was a German then French manufacturer of high-performance automobiles. The company was founded in 1909 in the then-German city of Molsheim, Alsace, by the Italian-born industrial designer Ettore Bugatti. The cars were known for their design beauty and for their many race victories.**
 
 I would be creating a car company website based on **BUGGATI**
@@ -86,5 +84,3 @@ While working on my project i actually drifted quite abit from the original wire
 
 - The picture was from (https://unsplash.com/s/photos/bugatti)
 - https://www.cnet.com/roadshow/news/bugatti-divo-ends-production/
-
-Hi People I am here
